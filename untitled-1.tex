@@ -1,0 +1,86 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx, lipsum}
+
+
+\begin{document}
+
+\title{Universal manuscript template for Publishing Group journals}
+\author{ABC}
+\maketitle
+
+\section{Corresponding author}
+
+\noindent Standard \LaTeX{} practice is to write inline math by enclosing it between \verb|\(...\)|:
+
+\begin{quote}
+In physics, the mass-energy equivalence is stated 
+by the equation \(E=mc^2\), discovered in 1905 by Albert Einstein.
+\end{quote}
+
+\noindent Instead if writing (enclosing) inline math between \verb|\(...\)| you can use \texttt{\$...\$} to achieve the same result:
+
+\begin{quote}
+In physics, the mass-energy equivalence is stated 
+by the equation $E=mc^2$, discovered in 1905 by Albert Einstein.
+\end{quote}
+
+\lipsum
+
+\[ x^n + y^n = z^n \]
+
+
+\begin{align}
+x = \sum_{3}^{5}
+\end{align}
+
+Notice that, to set the PATH environment variable for VS Code Remote Development, you usually have to edit
+
+sing Docker
+VS Code supports Docker with Remote - Containers. LaTeX Workshop works well with the extension. You can see an example. We strongly recommend you to use the extension instead of our following experimental feature.
+
+
+rxisos created snippets for LaTeX binaries in docker, and @lippertmarkus had another short description on how to use Docker with LaTeX Workshop. You can set up the advanced configuration of Docker through environment variables with the env property of each recipe.
+
+With the experimental feature, compiling subfiles with the subfiles package does not work.
+Supported languages and frameworks
+
+\&
+
+
+$\varpi$
+\lipsum
+modern LaTeX template for dissertations and other univers…
+For the impatient or curious: this is what the template looks like. You may also want to take a look at my Ph.D. dissertation, which uses a predecessor of this template.
+As Copilot Chat releases in lockstep with VS Code due to its deep UI integration, 
+every new version of Copilot Chat is only compatible with the latest and newest release of VS Code. 
+This means that if you are using an older version of VS Code, you will not be able to use the latest Copilot Chat.
+A minimal LaTeX document is a basic LaTeX document that contains the minimum amount of code required to create a document. It typically includes the document class, which specifies the type of document you have, and the begin and end document commands, which define the start and end of the document. A minimal LaTeX document can be created using any text editor, and typically includes a title, author, and date, as well as any content you want to include in the documen
+
+Using WSLA minimal example is the smallest possible complete document that illustrates a problem. A minimal example le should not include any packages or code that do not contribute to the 
+Click the OK button. You now have access to the ArtOfTest.Runner.exe from any directory on your computer. Make sure you start a new instance of the command prompt to get the updated variables.
+A minimal LaTeX document is a basic LaTeX document that contains the minimum amount of code required to create a document. It typically includes the document class, which specifies the type of document you have, and the begin and end document commands, which define the start and end of the document. A minimal LaTeX document can be created using any text editor, and typically includes a title, author, and date, as well as any content you want to include in the documen
+
+\section[short]{Second test}
+
+
+
+After installing TeX Live, you must add the directory of TeX Live binaries to your PATH environment variable except on Windows. See the official document. LaTeX Workshop never touches the variable. If VS Code cannot find executables of TeX, it means that the setting of your system is broken. For the ways of setting environment variables on Windows, see link or link. On macOS and Linux, see the documentation by the rbenv dev team. Very detailed information is also available on stackoverflow for macOS.
+
+Notice that you have to restart VS Code and the operating system after changing the variable.
+
+If you can not fix the setting of your system, you can also override PATH with the env property of LaTeX tools in LaTeX recipes.
+
+Notice that, to set the PATH environment variable for VS Code Remote Development, you usually have to edit
+
+sing Docker
+VS Code supports Docker with Remote - Containers. LaTeX Workshop works well with the extension. You can see an example. We strongly recommend you to use the extension instead of our following experimental feature.
+
+
+rxisos created snippets for LaTeX binaries in docker, and @lippertmarkus had another short description on how to use Docker with LaTeX Workshop. You can set up the advanced configuration of Docker through environment variables with the env property of each recipe.
+
+With the experimental feature, compiling subfiles with the subfiles package does not work.
+Supported languages and frameworks
+
+\end{document}
